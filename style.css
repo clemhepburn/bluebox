@@ -164,3 +164,7 @@ a {
     font-weight: lighter;
     font-size: 14px;
 }
+
+footer {
+    margin: 10px;
+}
