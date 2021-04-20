@@ -28,7 +28,7 @@ a {
 .colors {
     align-self: flex-end;
     justify-self: flex-end;
-    margin-right: 145px;
+    margin-right: 120px;
     margin-top: 50px;
 }
 
@@ -46,7 +46,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px;
-    width: 80%;
+    width: 1200px;
     padding: 5px;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -141,7 +141,7 @@ a {
 
 .square {
     border: 1px black dashed;
-    width: 230px;
+    width: 240px;
     height: 190px;
 
 }
@@ -166,7 +166,7 @@ a {
 }
 
 footer {
-    width: 80%;
+    width: 1200px;
     margin-bottom: 15px;
 
 }
