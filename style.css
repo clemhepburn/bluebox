@@ -116,6 +116,7 @@ a {
     font-family: 'Times New Roman', serif;
     color: white;
     font-size: 30px;
+    cursor: auto;
 }
 
 .blue:hover {
@@ -123,7 +124,10 @@ a {
     color:  rgb(62, 62, 253);
 }
 
-
+.blue-list {
+    font-size: 22px;
+    text-align: center;
+}
 
 .poem {
     font-family: Georgia, 'Times New Roman', Times, serif;
