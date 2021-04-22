@@ -7,7 +7,7 @@ document.querySelectorAll('#date').forEach(dateElement => {
 const blue = document.querySelector('.blue');
 
 blue.addEventListener('mouseover', () => {
-  blue.innerText = 'sky ocean blueberry hydrangea pansy butterfly blue jay blue starling grape hyacinth forget-me-not macaw special chair  cornflower hibiscus painting from a dear friend borage morning glory blue heron dart frog flax ';
+  blue.innerText = 'sky ocean blueberry hydrangea pansy butterfly blue jay blue starling grape hyacinth marble forget-me-not macaw special chair  cornflower hibiscus painting from a dear friend borage morning glory blue heron dart frog flax ';
   blue.classList.add('blue-list');
 })
 
