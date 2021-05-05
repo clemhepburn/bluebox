@@ -38,3 +38,18 @@ window.setInterval(function() {
 
 
 blueGenerator();
+
+const button = document.querySelector('.blue');
+const audio = new Audio('./assets/sound.mp3');
+const isPlaying = false;
+
+function myPlay() {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+};
+
+button.addEventListener('click', myPlay);
+
