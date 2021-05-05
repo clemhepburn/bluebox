@@ -43,24 +43,25 @@ main {
 }
 
 .blue {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 1.4rem;
     height: 15rem;
+    width: 15rem;
     overflow: visible;
     color: rgb(84, 84, 199);
     grid-column-start: 3;
     border: 5px dotted floralwhite;
     border-radius: 50%;
+    text-align: center;
 }
 
 .blue:hover {
-    font-size: 1.4rem;
-    border: none;
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
+    background-color: floralwhite;
+    border: 5px dotted rgb(84, 84, 199);
 }
 
 .leaf {
