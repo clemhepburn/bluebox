@@ -5,6 +5,16 @@ document.querySelectorAll('#date').forEach(dateElement => {
 
 });
 
+  const birthday = document.querySelector('.date');
+  let day = new Date();
+  if (day.getDay() == 0) {
+    birthday.classList.add('birthday')
+    birthday.textContent = 'today is may 9th which is the most special day. happy birthday :)';
+  }
+
+
+
+
 // const blue = document.querySelector('.blue');
 
 // blue.addEventListener('mouseover', () => {
