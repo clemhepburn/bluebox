@@ -25,7 +25,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color:rgb(198, 215, 160);
+  color:rgb(110, 96, 138);
 }
 
 a:visited {
@@ -33,7 +33,7 @@ a:visited {
 }
 
 a:visited:hover {
-  color:rgb(198, 215, 160);
+  color:rgb(110, 96, 138);
 }
 
 main {
