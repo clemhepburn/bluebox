@@ -39,4 +39,16 @@ a:visited:hover {
 main {
   margin-left: 20px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+header {
+  margin-left: 20px;
+}
+
+.kalan {
+  height: 75px;
+  width: initial;
 }
