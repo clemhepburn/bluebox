@@ -28,6 +28,15 @@ a:hover {
   color:rgb(198, 215, 160);
 }
 
+a:visited {
+  color: black;
+}
+
+a:visited:hover {
+  color:rgb(198, 215, 160);
+}
+
 main {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
