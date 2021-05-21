@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+}
+
+.lentil-post {
+  border: 1px solid black;
+  padding: 20px;
+  padding-top: 0;
+  width: fit-content;
+  font-family: Helvetica, sans-serif;
+}
+
+.lentil-post h3 {
+  text-align: right;
+  font-weight: normal;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:rgb(198, 215, 160);
+}
+
+main {
+  margin-left: 20px;
+}

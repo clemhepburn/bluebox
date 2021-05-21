@@ -1,94 +1,72 @@
 body {
-    width: 100%;
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    color: floralwhite;
-    background-color:rgb(220, 243, 117);
-    box-sizing: border-box;   
+    background-color: rgb(198, 215, 160);
 }
 
 header {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+
+.blue {
+    font-style: normal;
+    font-size: 2rem;
+    color:royalblue;
+}
+
+.home-main {
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.workspace {
+    width: 300px;
+}
+
+.leaf-div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-family: 'Times New Roman', serif;
-    font-size: 12rem;
-    margin-bottom: 20vh;
-    position: relative;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.oak-leaf {
+    width: 100px;
+}
+
+.stuff {
+    padding: 20px;
+    /* border: 1px black solid; */
+    background-color: floralwhite;
+}
+
+.date-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.directory {
+    line-height: 1.5rem;
 }
 
 a {
+    color: black;
     text-decoration: none;
-    font-style: normal;
-    color: rgb(196, 196, 255);
 }
 
-.date {
-    text-align: center;
-    font-style: italic;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 3rem;
-    margin-bottom: 10vh;
-    margin-left: 20vw;
-
-}
-
-.oak img {
-    width: 90%;
-}
-
-.blue {
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4rem;
-    height: 15rem;
-    width: 15rem;
-    overflow: visible;
-    color: rgb(84, 84, 199);
-    grid-column-start: 3;
-    border: 5px dotted floralwhite;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-}
-
-.blue:hover {
-    background-color: floralwhite;
-    border: 5px dotted rgb(84, 84, 199);
-}
-
-.leaf {
-    grid-row-start: 4;
-    grid-column-start: 2;
-    font-size: 1.7rem;
-    font-family: 'Times New Roman', Times, serif;
-    color: rosybrown;
-    position: absolute;
-}
-
-footer {
-    padding: 10vh;
-    padding-bottom: 0;
-    margin: 0;
-}
-
-footer h2 {
-    font-size: 36px;
-    font-weight: normal;
-    color: rgb(119, 94, 56)
+a:hover {
+    text-decoration: underline;
 }
 
 
-.birthday {
-    font-size: 48px;
-    padding: 50px;
-    
-}
