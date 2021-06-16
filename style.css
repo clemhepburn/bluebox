@@ -249,4 +249,9 @@ body {
     width: 200px;
   }
   
-  
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 4rem;
+}  
