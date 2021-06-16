@@ -255,3 +255,25 @@ footer {
     margin: 0;
     padding-top: 4rem;
 }  
+
+@media (max-width: 535px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0px 1fr;
+    }
+
+    nav {
+      line-height:1.5rem;
+    }
+
+    .nav {
+      padding-top: 120px;
+      font-size: .9rem;
+     
+
+    }
+
+
+}
