@@ -15,17 +15,19 @@ document.querySelectorAll('#date').forEach(dateElement => {
 
 
 
-// const blue = document.querySelector('.blue');
+const blue = document.querySelector('.imfdsfnjsage');
 
-// blue.addEventListener('mouseover', () => {
-//   blue.innerText = 'sky ocean blueberry hydrangea pansy butterfly blue jay blue starling grape hyacinth marble forget-me-not macaw special chair  cornflower hibiscus painting from a dear friend borage morning glory blue heron dart frog flax ';
-//   blue.classList.add('blue-list');
-// })
+blue.addEventListener('mouseover', (e) => {
+  e.preventDefault();
+  blue.innerText = (' ');
+  blue.classList.add('blue-list');
+})
 
-// blue.addEventListener('mouseout', () => {
-//   blue.innerText = 'blue';
-//   blue.classList.remove('blue-list');
-// })
+blue.addEventListener('mouseout', (e) => {
+  e.preventDefault();
+  blue.innerText = '~*-_^.,,.^_-*~';
+  blue.classList.remove('blue-list');
+})
 
 const wordArray = ['sky', 'ocean', 'blueberry', 'hydrangea', 'pansy', 'butterfly', 'blue jay', 'blue starling', 'grape hyacinth', 'marble', 'forget-me-not', 'macaw', 'special chair', 'cornflower', 'hibiscus', 'painting from a dear friend', 'borage', 'morning glory', 'blue heron', 'dart frog', 'flax'];
 

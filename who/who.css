@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid royalblue;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  color: royalblue;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  height: 400px;
+}
+
+a {
+  padding: 3px;
+  color: royalblue;
+}
+
+a:hover {
+  color: white;
+  background-color: royalblue;
+}
+
+.home {
+  margin-top: 20px;
+}
+
+.about {
+  font-family: Helvetica, sans-serif;
+}
