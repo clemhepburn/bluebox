@@ -1,8 +1,19 @@
-var today = new Date();
-var months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'cctober', 'november', 'december'];
-document.querySelectorAll('#date').forEach(dateElement => {
-  dateElement.innerHTML += ' ' + months[today.getMonth()] + ' ' + today.getDate() + ', ' + today.getFullYear();
+// var today = new Date();
+// var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// var time = today.toLocaleTimeString().toLowerCase();
+// document.querySelectorAll('#date').forEach(dateElement => {
+//   dateElement.innerHTML += ' ' + 'Today is' + ' ' + months[today.getMonth()] + ' ' + today.getDate() + ', ' + today.getFullYear() + ' ' + time ;
 
+// });
+
+let date = new Date();  
+let options = {  
+    weekday: "long", year: "numeric", month: "long",  
+    day: "numeric", hour: "2-digit", minute: "2-digit"  
+};  
+
+document.querySelectorAll('#date').forEach(dateElement => {
+  dateElement.innerHTML += ' ' + 'Today is' + ' ' + date.toLocaleTimeString('en-us', options);
 });
 
   const birthday = document.querySelector('.date');

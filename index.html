@@ -6,43 +6,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>clem</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Benne&family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="nav">
-      <h1 class="name">
-        Clem's leafy cafe&nbsp;&nbsp; <span id="date"></span>
-      </h1>
-      <nav>
-        <a href="/lentil">blog</a>
-        <a href="/birch">birch</a>
-        <a href="/links">links</a>
-        <a href="/who" id="who">who?</a>
-      </nav>
+<header>
+  <div class="logo"><span class="c">c</span><span class="l">l</span><span class="e">e</span><span class="m">m</span></div>
+  <nav class="nav">
+    <a class="birch"></a>
+    <a class="blog"></a>
+    <a class="links"></a>
+    <a class="who"></a>
+  </nav>
+  <div class="date" id="date"></div>
+</header>
+<main>
+  <div class="left-div"></div>
+  <div class="main">
+    <h1>My summer reading list 2021:</h1>
+    <div class="main-content-container">
+      <div class="left top top-left column"></div>
+      <div class="top column">list #</div>
+      <div class="top column">title</div>
+      <div class="top column">type</div>
+      <div class="top column">status</div>
+      <div class="top right top-right column"></div>
+      <div class="left column content"></div>
+      <div class="column content list">1</div>
+      <div class="column content">Delirious New York by Rem Koolhaas</div>
+      <div class="column content">book</div>
+      <div class="column content status">currently reading</div>
+      <div class="right column content"></div>
+      <div class="left column content"></div>
+      <div class="column content list">2</div>
+      <div class="column content">Elements of Computing Systems</div>
+      <div class="column content">book</div>
+      <div class="column content status">to read</div>
+      <div class="right column content"></div>
+      <div class="left column content"></div>
+      <div class="column content list">3</div>
+      <div class="column content">Improvising Sculpture as Delayed Fictions by Felicia Atkinson</div>
+      <div class="column content">book</div>
+      <div class="column content status">finished reading</div>
+      <div class="right column content"></div>
+      <div class="left column content"></div>
+      <div class="column content list">4</div>
+      <div class="column content">The Chandelier by Clarice Lispector</div>
+      <div class="column content">book</div>
+      <div class="column content status">to read</div>
+      <div class="right column content"></div>
+      <div class="left column content"></div>
+      <div class="column content list">5</div>
+      <div class="column content"><a href="https://frankchimero.com/blog/2018/the-good-room/">The Good Room</a>&nbsp; by Frank Chimero</div>
+      <div class="column content">article, essay</div>
+      <div class="column content status">currently reading</div>
+      <div class="right column content"></div>
+      <div class="bottom left bottom-left column"></div>
+      <div class="bottom column list"></div>
+      <div class="bottom column"></div>
+      <div class="bottom column"></div>
+      <div class="bottom column"></div>
+      <div class="bottom right bottom-right column"></div>
     </div>
-    <div class="image"> 
-      (ノ ˘_˘)ノ &nbsp; ･*:.｡. .｡.:*･゜ﾟ･*☆
-      <!-- <img src="assets/blur2.png" /> -->
-    </div>
-    <div class="this">
-      <br>
-      <div class="orchard">
-        &nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;<br>
-        &nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳<br>
-        🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;🌳&nbsp;<br>
-      </div>
-
-      <!--        _-_<br>
-      /~~&nbsp;&nbsp;~~\<br>
-   /~~\&nbsp;&nbsp;&nbsp;~~\<br>
-  {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
-   \  _-     -_  /<br>
-     ~  \\ //  ~<br>
-  _- -   | | _- _<br>
-    _-  | |   -_<br>
-        // \\ -->
-      </div>
   </div>
-  <script src="app.js"></script>
+  <div class="right-div"></div>
+  <div class="left-div"></div>
+  <div class="links-container">
+    <div class="links-title"><h1>Other places on the web, friends, projects</h1></div>
+    <div class="links-nav">
+      
+      <a href="http://ichoose.pe.hu/collection/clem/">pe hu "ichoose"</a>
+      <a href="https://special.fish/clem">My special.fish profile</a>
+      <a href="https://birdflyingbelowtheground.net/">bird flying below the ground</a>
+      <a href="http://ifiaar.org/">IFIAAR</a>
+      <a href="https://gossipsweb.net/">Gossip's Web</a>
+      <a href="https://www.recurse.com/">Recurse Center</a>
+      <a href="http://www.readinggroup.co/">Reading Group</a>
+      <a href="https://volvoxvault.com/">Volvox Vault</a>
+      <a href="https://elliott.computer/">Elliott's Computer</a><br><br>
+      
+  
+    </div>
+  </div>
+  <div class="right-div"></div>
+</main>
+<footer>
+  <a href="/birch" class="birch">birch</a>
+  <a href="/lentil" class="blog">blog</a>
+  <a href="/who" class="who">who?</a>
+</footer>
+<script src="app.js"></script>
 </body>
 </html>
