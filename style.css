@@ -264,7 +264,11 @@ main {
     font-size: 1.8rem;
     margin: 0;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 li {
     font-size: 1.5rem;
