@@ -221,6 +221,7 @@ color: #936132;
 
 main {
     display: flex;
+    height: 620px;
 }
 
 .links-container {
@@ -279,4 +280,11 @@ li {
 
 .clem a:hover {
     text-decoration: none;
+}
+
+footer {
+    background-color: rgb(237, 221, 182);
+    width: 100vw;
+    margin: 0;
+    height: 24px;
 }
