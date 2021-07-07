@@ -21,8 +21,7 @@ header {
     border-right: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 90px;
-    padding-left: 5px;
+    width: 70px;
     justify-content: center;
     align-items: center;
 }
@@ -155,14 +154,16 @@ color: #936132;
 }
 
 .date {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-style: italic;
     font-family: Helvetica, sans-serif;
     font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
     padding: 0.5rem;
+    padding-right: 2rem;
     border-right: 1px solid black;
 }
 
@@ -172,8 +173,9 @@ color: #936132;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
     font-family: 'Benne', serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -181,13 +183,14 @@ color: #936132;
 
 .paws img {
     width: 120px;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .paws {
     border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .question {

@@ -1,16 +1,16 @@
-// var today = new Date();
-// var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-// var time = today.toLocaleTimeString().toLowerCase();
-// document.querySelectorAll('#date').forEach(dateElement => {
-//   dateElement.innerHTML += ' ' + 'Today is' + ' ' + months[today.getMonth()] + ' ' + today.getDate() + ', ' + today.getFullYear() + ' ' + time ;
+var today = new Date();
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var time = today.toLocaleTimeString().toLowerCase();
+document.querySelectorAll('#date').forEach(dateElement => {
+  dateElement.innerHTML += ' ' + 'Today is' + ' ' + months[today.getMonth()] + ' ' + today.getDate() + ', ' + today.getFullYear();
 
-// });
+});
 
-let date = new Date();  
-let options = {  
-    weekday: "long", year: "numeric", month: "long",  
-    day: "numeric", hour: "2-digit", minute: "2-digit"  
-};  
+// let date = new Date();  
+// let options = {  
+//     weekday: "long", year: "numeric", month: "long",  
+//     day: "numeric", hour: "2-digit", minute: "2-digit"  
+// };  
 
 document.querySelectorAll('#date').forEach(dateElement => {
   dateElement.innerHTML += ' ' + 'Today is' + ' ' + date.toLocaleTimeString('en-us', options);
