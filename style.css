@@ -258,7 +258,8 @@ main {
 
 .clem {
     border: 1px solid black;
-    background-color: rgb(201, 190, 201);
+    /* background-color: rgb(201, 190, 201); */
+    background-color: rgb(181, 163, 181);
     width: 50%;
     min-width: 435px;
     font-size: 1.8rem;
@@ -268,6 +269,9 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+
 
 
 li {
