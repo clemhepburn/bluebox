@@ -8,6 +8,7 @@ header {
     display: flex;
     margin: 0;
     width: 100%;
+    border-top: 1px solid black;
 }
 
 
@@ -191,6 +192,8 @@ color: #936132;
     border-right: 1px solid black;
     display: flex;
     justify-content: center;
+    /* background-color: rgb(136, 96, 67); */
+
 }
 
 .question {
@@ -243,6 +246,7 @@ main {
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
+    width: fit-content;
     
 }
 
@@ -251,7 +255,7 @@ main {
     text-decoration: none;
 }
 
-.links-container a:hover {
+.links-nav a:hover {
     text-decoration: underline;
 }
 
@@ -294,5 +298,6 @@ footer {
     background-color: rgb(237, 221, 182);
     width: 100vw;
     margin: 0;
-    height: 24px;
+    height: 21px;
+    border-bottom: 1px solid black;
 }
