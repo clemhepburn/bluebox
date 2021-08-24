@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #9188A0;
+    background-image: url('../assets/Rectangle.png');
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-size: 70%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    margin-top: 100px;
+
+}
+
+h1 {
+    /* opacity: 80%; */
+    color: #f6e4d3de;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: -0.05em;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 5rem;
+    padding-top: 100px;
+    text-align: center;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    color: #f6e4d3de;
+    width: 60%;
+    margin-top: 160px;
+    display: grid;
+    grid-column-gap: 200px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+a {
+    color: #f6e4d3de;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    
+}
+
+.books {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.link-title {
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.berlant {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.nav a:hover {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 1.6rem;
+}
