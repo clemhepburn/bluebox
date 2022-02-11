@@ -134,3 +134,70 @@
     color: transparent;
   }
 
+  @media only screen and (max-width: 600px) {
+    
+    body * {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .grid-container {
+        width: 100%;
+        margin: 0;
+        padding: 0 1rem;
+        display: table;
+        box-sizing: border-box;
+    }
+
+    .grid-item  {
+        margin: 0;
+        padding: 1rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: spaced-evenly;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        -webkit-scrollbar-width: none;
+        scrollbar-width: none;
+        height: 100%;
+        border-right: none;
+    }
+
+    .grid-item:child {
+        width: 100%;
+        
+    }
+
+    #third {
+        display: table-header-group;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem!important;
+    }
+
+
+    img {
+        display: none;
+    }
+
+    .trees, .raccoons, .berlant {
+        margin: 1rem 0;
+    }
+
+    .trees {
+        width: 100%;
+        display: inline;
+    }
+
+    .trees br {
+        display: none;
+    }
+
+
+  }
+
