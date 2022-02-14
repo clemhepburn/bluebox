@@ -13,7 +13,7 @@
 function updateClock() {
   var now = new Date(), // current date
       months = ['January', 'February', '...']; // you get the idea
-      time = now.getHours() + ':' + now.getMinutes(), // again, you get the idea
+      time = now.getHours('hh') + ':' + (now.getMinutes()<10?'0':'') + now.getMinutes();
 
       // a cleaner way than string concatenation
       date = [now.getDate(), 
