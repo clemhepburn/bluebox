@@ -1,3 +1,116 @@
+@font-face {
+  font-family: 'CirrusCumulus';
+  src: url('./fonts/cirruscumulus-master/fonts/CirrusCumulus.woff');
+  type: 'woff';
+}
+
+@font-face {
+  font-family: 'Monaco';
+  src: url('./fonts/Monaco.woff');
+  type: 'woff';
+}
+
+body {
+  background-color:rgb(159, 173, 194);
+  color:rgb(32, 32, 32);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  height: 20px;
+}
+
+.header-content {
+padding: 1rem 1rem 0 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  font-family: 'CirrusCumulus';
+  font-size: 24px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.images {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
 
 
+img {
+  height: 500px;
+  mix-blend-mode: hard-light;
+}
 
+footer {
+  background-color: rgb(159, 173, 194);
+  position: fixed;
+  bottom: 0;
+  padding: 1rem 0;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-content {
+
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dogen {
+  font-family: 'CirrusCumulus';
+  font-style: regular;
+  font-size: 16px;
+}
+
+.rc {
+  height: 25px;
+}
