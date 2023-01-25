@@ -33,11 +33,12 @@ a:hover {
 
 .name {
   font-family: 'CirrusCumulus';
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
+
 .tin {
-  max-width: 300px;
+  height: 300px;
 }
 
 p, h1 {
@@ -51,7 +52,7 @@ header, .header-content, main, .about {
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-size: .8rem;
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -70,122 +71,54 @@ main {
 }
 
 footer, .footer-content {
-  display: none;
   width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: space-between;
+  justify-content: space-between;
   font-family: 'CirrusCumulus';
   text-align: center;
-  gap: 1.2rem;
+  /* gap: 1.2rem; */
   text-transform:uppercase;
 }
 
 @media (min-width: 800px) {
+  header, .header-content, footer, .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-body {
-  background-color:rgb(159, 173, 194);
-  color:rgb(32, 32, 32);
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: 'JetBrains Mono', monospace;
-}
+  .header-content, .footer-content {
+    padding: 0 1rem;
+  }
 
-h1 {
-  font-size: 24px;
-}
+  main {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
 
-a {
-  color: black;
-  text-decoration: none;
-}
+  .about {
+    width: 50%;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  .tin {
+    height: 500px;
+  }
 
-header {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
-  height: 20px;
-}
+  .dogen {
+    font-size: 1.6rem;
+  }
 
-.header-content {
-padding: 1rem 1rem 0 1rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-}
-
-p {
-  margin: 0;
-}
-
-.name {
-  font-family: 'CirrusCumulus';
-  font-size: 24px;
-}
-
-main {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.images {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-
-img {
-  height: 500px;
-  mix-blend-mode: hard-light;
-}
-
-footer {
-  background-color: rgb(159, 173, 194);
-  position: fixed;
-  bottom: 0;
-  padding: 1rem 0;
-  height: 30px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.footer-content {
-
-  padding: 1rem 1rem 0 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.dogen {
-  font-family: 'CirrusCumulus';
-  font-style: ITALIC;
-  font-size: 24px;
-}
-
-.rc {
-  height: 25px;
-}
+  footer, .footer-content {
+    height: 50px;
+  }
 }
