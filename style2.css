@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.main-content {
+  width: 60%;
+}
+
+.list {
+  text-align: left;
+  line-height: 2;
+}
+
+.dandelion {
+  max-width: 200px;
+}
+
+.album-art {
+  border: 2px solid black;
+}
+
+.sign-off {
+  text-align: right;
+  font-style: italic;
+}
+
+img {
+  max-width: 400px;
+}
